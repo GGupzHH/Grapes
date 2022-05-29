@@ -7,8 +7,13 @@ name: 'Chromatic Deployment'
 on: push
 
 # List of jobs
+
 jobs:
   test:
+    strategy:
+      matrix:
+        node-version: [14.x]
+        
     # Operating System
     runs-on: ubuntu-latest
     # Job steps
