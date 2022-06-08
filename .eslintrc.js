@@ -65,12 +65,18 @@ module.exports = {
     '@typescript-eslint/no-explicit-any': 0,
     '@typescript-eslint/no-empty-function': 0,
     '@typescript-eslint/semi': ['error', 'never'],
+    '@typescript-eslint/no-empty-interface': 0,
+    '@typescript-eslint/ban-ts-comment': 0,
+    '@typescript-eslint/no-var-requires': 0,
     'vue/no-v-html': 'off',
     'vue/multi-word-component-names': 0,
     'vue/singleline-html-element-content-newline': 'off',
     'vue/html-closing-bracket-spacing': 'error',
     'vue/no-mutating-props': 0,
     'vue/script-setup-uses-vars': 'error',
+    'vue/v-on-event-hyphenation': ['warn', 'always', {
+      autofix: true
+    }],
     'vue/html-self-closing': ['error', {
       html: {
         void: 'never',
