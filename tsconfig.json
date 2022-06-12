@@ -13,6 +13,21 @@
     "lib": ["esnext", "dom"],
     "skipLibCheck": true
   },
+  "types": [
+    "vite-svg-loader",
+    "vite/client",
+  ],
+  "baseUrl": "./",
+  "paths": {
+    "@/*": ["./src/*"],
+    "store/*": ["./src/store"],
+    "comps/*": ["./src/components"],
+    "utils/*": ["./src/utils"],
+    "modules/*": ["./src/modules/*"],
+    "router/*": ["./src/router/*"],
+    "widgets/*": ["./src/widgets/*"],
+    "mixins/*": ["./src/mixins/*"]
+  },
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

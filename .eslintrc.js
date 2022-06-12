@@ -31,6 +31,45 @@ module.exports = {
     'comma-dangle': ['error', 'never'],
     'no-irregular-whitespace': 2,
     'no-multi-spaces': 1,
+    'object-property-newline': ['error'],
+    'key-spacing': 'error',
+    'object-curly-spacing': ['error','always'],
+    'block-spacing': ['error', 'always'],
+    'computed-property-spacing': ['error', 'never'],
+    'func-call-spacing': ['error', 'never'],
+    'space-before-function-paren': [
+      'error',
+      'never'
+    ],
+    'keyword-spacing': [
+      'error',
+      {
+        'before': true,
+        'after': true
+      }
+    ],
+    'space-infix-ops': [
+      'error',
+      {
+        'int32Hint':
+        false
+      }
+    ],
+    'spaced-comment': [
+      'error',
+      'always',
+      {
+        'exceptions': ['-', '+']
+      }
+    ],
+    'arrow-spacing': [
+      'error',
+      {
+        'before': true,
+        'after': true
+      }
+    ],
+    'template-curly-spacing': ['error', 'always'],
     'no-multiple-empty-lines': [
       2,
       {

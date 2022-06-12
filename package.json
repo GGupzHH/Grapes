@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "chromatic": "npx chromatic --project-token=4f2fac6a6200"
+    "chromatic": "npx chromatic --project-token=4f2fac6a6200",
+    "eslint-fix": "eslint --fix --ext .js,.ts,.jsx,.tsx,.vue ./src"
   },
   "dependencies": {
     "chromatic": "^6.5.4",
